@@ -56,20 +56,20 @@ export default function Home() {
   return (
       <>
       <div className="bg-gray-900 h-full overflow-hidden">
-          <nav className="h-16 w-full fixed z-50">
-              <div className="w-full flex flex-col md:flex-row justify-between items-center gap-6 md:gap-10 xl:gap-0 p-8">
-                  <a href={'tel:+16015005999'}  className="w-1/4 flex flex-row justify-center items-center gap-2">
-                      <div className="w-full flex flex-row justify-center items-center gap-4">
+          <nav className="h-auto w-full relative z-50 flex justify-center items-center">
+              <div className="w-full md:w-3/4 flex flex-col sm:flex-row justify-between items-center gap-6 md:gap-10 xl:gap-0 p-8">
+                  <a href={'tel:+16019273282'}  className="w-1/4 flex flex-row justify-center sm:justify-start items-center gap-2">
+                      <div className="w-full flex flex-row justify-center sm:justify-start items-center gap-4">
                           <div>
                               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6">
                                   <path fillRule="evenodd" d="M1.5 4.5a3 3 0 013-3h1.372c.86 0 1.61.586 1.819 1.42l1.105 4.423a1.875 1.875 0 01-.694 1.955l-1.293.97c-.135.101-.164.249-.126.352a11.285 11.285 0 006.697 6.697c.103.038.25.009.352-.126l.97-1.293a1.875 1.875 0 011.955-.694l4.423 1.105c.834.209 1.42.959 1.42 1.82V19.5a3 3 0 01-3 3h-2.25C8.552 22.5 1.5 15.448 1.5 6.75V4.5z" clipRule="evenodd" />
                               </svg>
                           </div>
-                          <span className="text-base hover:underline">601.500.5999</span>
+                          <span className="text-base hover:underline">601.927.3282</span>
                       </div>
                   </a>
-                  <a href={'mailto:mail@andrewb.it'} className="w-1/4 flex flex-row justify-center items-center gap-2">
-                      <div className="w-full flex flex-row justify-center items-center gap-4">
+                  <a href={'mailto:support@andrewb.it'} className="w-1/4 flex flex-row justify-center sm:justify-end items-center gap-2">
+                      <div className="w-full flex flex-row justify-center sm:justify-end items-center gap-4">
                           <div>
                               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6">
                                   <path d="M1.5 8.67v8.58a3 3 0 003 3h15a3 3 0 003-3V8.67l-8.928 5.493a3 3 0 01-3.144 0L1.5 8.67z" />
@@ -77,7 +77,7 @@ export default function Home() {
                               </svg>
 
                           </div>
-                          <span className="text-base hover:underline">mail@andrewb.it</span>
+                          <span className="text-base hover:underline">support@andrewb.it</span>
                       </div>
                   </a>
               </div>
@@ -96,7 +96,7 @@ export default function Home() {
                 }}
             />
           </div>
-          <div className="py-12">
+          <div className="pt-0 sm:pb-12">
             <div className="mx-auto max-w-7xl px-6 lg:px-8">
               <div className="mx-auto max-w-2xl text-center">
                 <h1 className="text-4xl font-bold tracking-tight text-white sm:text-6xl">
