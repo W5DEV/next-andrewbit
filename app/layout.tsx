@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title: 'Honest IT. Simplified. | ANDREWB.IT',
   description: 'Managed IT Services',
   icons:{
-    icon: 'favicon.ico',
+    icon: '/favicon.ico',
   },
 }
 
