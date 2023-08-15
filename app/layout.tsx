@@ -7,6 +7,9 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata: Metadata = {
   title: 'Honest IT. Simplified. | ANDREWB.IT',
   description: 'Managed IT Services',
+  icons:{
+    icon: 'favicon.ico',
+  },
 }
 
 export default function RootLayout({
@@ -16,9 +19,6 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-    <head>
-      <link rel="icon" href="/ab.png" sizes="any" />
-    </head>
       <body className={inter.className}>{children}</body>
     </html>
   )
