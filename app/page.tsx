@@ -1,5 +1,4 @@
 import {
-    ArrowPathIcon,
     WrenchScrewdriverIcon,
     ServerIcon,
     BugAntIcon,
