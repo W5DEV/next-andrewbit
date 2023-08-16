@@ -42,7 +42,7 @@ export default function HomePage() {
                 </div>
                 <div className="p-4 h-48 flex justify-center items-center">
                     <a href='http://www.msgo.com/'>
-                        <img src='/images/logos/msgo.svg' alt=""  className="w-full"/>
+                        <img src='/images/logos/msgo.svg' alt=""  className="w-72"/>
                     </a>
                 </div>
                 <div className="p-4 h-48 flex justify-center items-center">
