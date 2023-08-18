@@ -1,80 +1,73 @@
-import Image from "next/image";
-
 export default function HomePage() {
   return (
     <div className="flex flex-col justify-start items-center p-4 md:p-12 bg-white min-h-screen">
       <div className="font-bold text-center text-3xl w-full text-black">
-        <span>Andrew&apos;s Homepage</span>
+        <span>Andrew's Homepage</span>
       </div>
       <div className="font-bold w-full pt-12 grid grid-cols-2 md:grid-cols-4 gap-10 max-w-6xl">
         <div className="p-4 h-48 flex justify-center items-center">
           <a href="http://flix.andrewb.it">
-            <Image fill src="/images/logos/plex.png" alt="" />
+            <img src="/images/logos/plex.png" alt="" />
           </a>
         </div>
         <div className="p-4 h-48 flex justify-center items-center">
           <a href="https://gun.deals/">
-            <Image fill src="/images/logos/gd.png" alt="" />
+            <img src="/images/logos/gd.png" alt="" />
           </a>
         </div>
         <div className="p-4 h-48 flex justify-center items-center">
           <a href="http://www.slashdot.org/">
-            <Image fill src="/images/logos/slashdot.jpg" alt="" />
+            <img src="/images/logos/slashdot.jpg" alt="" />
           </a>
         </div>
         <div className="p-4 h-48 flex justify-center items-center">
           <a href="http://citizenfreepress.com/">
-            <Image fill src="/images/logos/cfp.jpg" alt="" />
+            <img src="/images/logos/cfp.jpg" alt="" />
           </a>
         </div>
         <div className="p-4 h-48 flex justify-center items-center">
           <a href="https://dailystormer.in/">
-            <Image fill src="/images/logos/stormer.jpeg" alt="" />
+            <img src="/images/logos/stormer.jpeg" alt="" />
           </a>
         </div>
         <div className="p-4 h-48 flex justify-center items-center">
           <a href="http://gab.com/">
-            <Image fill src="/images/logos/gab.png" alt="" className="w-72" />
+            <img src="/images/logos/gab.png" alt="" className="w-72" />
           </a>
         </div>
         <div className="p-4 h-48 flex justify-center items-center">
           <a href="http://www.zerohedge.com/">
-            <Image fill src="/images/logos/zh.svg" alt="" />
+            <img src="/images/logos/zh.svg" alt="" />
           </a>
         </div>
         <div className="p-4 h-48 flex justify-center items-center">
           <a href="http://www.msgo.com/">
-            <Image fill src="/images/logos/msgo.svg" alt="" className="w-72" />
+            <img src="/images/logos/msgo.svg" alt="" className="w-72" />
           </a>
         </div>
         <div className="p-4 h-48 flex justify-center items-center">
           <a href="https://twitter.com/">
-            <Image
-              fill
-              src="/images/logos/Twitter-Logo.png"
-              alt=""
-              className="w-40"
-            />
+            <img src="/images/logos/Twitter-Logo.png" alt="" className="w-40" />
           </a>
         </div>
         <div className="p-4 h-48 flex justify-center items-center">
           <a href="https://infowars.com/">
-            <Image fill src="/images/logos/infowars.jpg" alt="" />
+            <img src="/images/logos/infowars.jpg" alt="" />
           </a>
         </div>
         <div className="p-4 h-48 flex justify-center items-center">
           <a href="https://www.unz.com/">
-            <Image fill src="/images/logos/unz.png" alt="" />
+            <img src="/images/logos/unz.png" alt="" />
           </a>
         </div>
         <div className="p-4 h-48 flex justify-center items-center">
           <a href="https://www.preppingdeals.net/">
-            <Image fill src="/images/logos/prepping.png" alt="" />
+            <img src="/images/logos/prepping.png" alt="" />
           </a>
         </div>
         <div className="p-4 h-48 flex justify-center items-center">
           <a href="https://www.revolver.news/">
-            <Image fill src="/images/logos/revolver.png" alt="" />
+            <img src="/images/logos/revolver.png" alt="" />
           </a>
         </div>
       </div>
