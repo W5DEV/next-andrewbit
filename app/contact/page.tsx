@@ -1,6 +1,6 @@
-import Cta from '@/components/cta';
-import Services from '@/components/services';
+import Contact from '@/components/contact';
 import Header from '@/components/header';
+import Link from 'next/link';
 
 export default function Home() {
   return (
@@ -66,9 +66,17 @@ export default function Home() {
           </div>
           <div className='pt-0 sm:pb-12'>
             <div className='mx-auto max-w-7xl px-6 lg:px-8'>
+              <div className='mt-10 flex'>
+                <Link
+                  href='/'
+                  className='text-sm font-semibold leading-6 text-indigo-400 hover:underline'
+                >
+                  <span aria-hidden='true'>&larr;</span>
+                  &nbsp; Return Home
+                </Link>
+              </div>
               <Header />
-              <Services />
-              <Cta />
+              <Contact />
             </div>
           </div>
           <div
