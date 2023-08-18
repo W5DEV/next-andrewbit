@@ -2,7 +2,7 @@ export default function HomePage() {
   return (
     <div className="flex flex-col justify-start items-center p-4 md:p-12 bg-white min-h-screen">
       <div className="font-bold text-center text-3xl w-full text-black">
-        <span>Andrew's Homepage</span>
+        <span>Andrew&apos;s Homepage</span>
       </div>
       <div className="font-bold w-full pt-12 grid grid-cols-2 md:grid-cols-4 gap-10 max-w-6xl">
         <div className="p-4 h-48 flex justify-center items-center">

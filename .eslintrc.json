@@ -23,6 +23,7 @@
     "no-debugger": "warn",
     "react/jsx-key": "off",
     "@next/next/no-html-link-for-pages": "off",
+    "@next/next/no-img-element": "off",
     "import/no-unresolved": "error",
     "@typescript-eslint/array-type": "warn",
     "@typescript-eslint/consistent-type-imports": "warn",
