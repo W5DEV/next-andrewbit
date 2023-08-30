@@ -54,7 +54,7 @@ export default function Contact() {
                                     </a>
                                 </div>
                                 <div className="w-full md:w-3/4 flex flex-col sm:flex-row justify-between items-center gap-6 md:gap-10 xl:gap-0 p-8">
-                                    <a href={'mailto:support@andrewb.it'} className="w-full flex flex-row justify-center items-center gap-2">
+                                    <div className="w-full flex flex-row justify-center items-center gap-2">
                                         <div className="w-full flex flex-row justify-center items-center gap-4 text-white">
                                             <div className="text-white">
                                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-6 h-6">
@@ -63,9 +63,9 @@ export default function Contact() {
 
 
                                             </div>
-                                            <span className="text-base hover:underline text-white">139 Channing Cir, Canton, MS 39046</span>
+                                            <span className="text-base text-white">139 Channing Cir, Canton, MS 39046</span>
                                         </div>
-                                    </a>
+                                    </div>
                                 </div>
 
                             </div>
