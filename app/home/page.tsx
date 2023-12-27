@@ -5,6 +5,11 @@ export default function HomePage() {
                 <span>Andrew's Homepage</span>
             </div>
             <div className="font-bold w-full pt-12 grid grid-cols-2 md:grid-cols-4 gap-10 max-w-6xl">
+            <div className="p-4 h-48 flex justify-center items-center">
+                    <a href='https://webk.telegram.org'>
+                        <img src='/images/logos/tgram.svg'  alt="" className='w-48'/>
+                    </a>
+                </div>
                 <div className="p-4 h-48 flex justify-center items-center">
                     <a href='http://flix.andrewb.it'>
                         <img src='/images/logos/plex.png'  alt=""/>
