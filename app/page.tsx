@@ -1,17 +1,6 @@
 import Cta from '@/components/cta';
 import Services from '@/components/services';
 import Header from '@/components/header';
-import {
-    BugAntIcon,
-    ComputerDesktopIcon,
-    CpuChipIcon,
-    DocumentTextIcon,
-    EnvelopeIcon,
-    LockClosedIcon,
-    ServerIcon,
-    ShieldCheckIcon,
-    WrenchScrewdriverIcon,
-} from '@heroicons/react/20/solid'
 import Navigation from "@/app/components/Navigation";
 
 export default function Home() {
