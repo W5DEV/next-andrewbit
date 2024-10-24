@@ -11,7 +11,7 @@ export default function HomePage() {
             </a>
           </div>
           <div className='p-4 h-48 flex justify-center items-center'>
-            <a href='http://flix.andrewb.it'>
+            <a href='http://godlikeproductions.com'>
               <img src='/images/logos/plex.png' alt='' />
             </a>
           </div>
