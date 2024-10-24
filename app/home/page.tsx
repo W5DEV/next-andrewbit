@@ -6,7 +6,7 @@ export default function HomePage() {
         </div>
         <div className='font-bold w-full pt-12 grid grid-cols-2 md:grid-cols-4 gap-10 max-w-6xl'>
           <div className='p-4 h-48 flex justify-center items-center'>
-            <a href='https://webk.telegram.org'>
+            <a href='https://continent2924.patriotfront.network/'>
               <img src='/images/logos/tgram.svg' alt='' className='w-48' />
             </a>
           </div>
